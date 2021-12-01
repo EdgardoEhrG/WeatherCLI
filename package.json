@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "cli",
   "main": "weather.js",
-  "bin": {
-    "weather": "weather.js"
+  "type": "module",
+  "scripts": {
+    "start": "weather.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,8 @@
   "author": "Edgar Ehrenberg",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1"
   }
 }
