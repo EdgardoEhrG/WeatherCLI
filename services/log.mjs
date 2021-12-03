@@ -21,4 +21,17 @@ const printHelp = () => {
   );
 };
 
-export { printHelp, printSuccess, printError };
+const printWeather = (res, icon) => {
+  console.log(
+    dedent(`
+  ${chalk.bgHex(" WEATHER: ")}
+  Today in ${res.name}:
+  ${icon}  ${res.weather[0].description}
+  Temp: ${res.main.temp} (feels like ${res.main.feels_like})
+  Humidity: ${res.main.humidity}%
+  Speed of wind: ${res.wind.speed}
+`)
+  );
+};
+
+export { printHelp, printSuccess, printError, printWeather };

@@ -6,3 +6,4 @@
 
 - [ ] ES Modules
 - [ ] Work with CLI
+- [ ] Work with fs
