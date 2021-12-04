@@ -6,4 +6,5 @@
 
 - [ ] ES Modules
 - [ ] Work with CLI
+- [ ] Console logs | chalk
 - [ ] Work with fs
